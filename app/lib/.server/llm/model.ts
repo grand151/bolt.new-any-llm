@@ -66,6 +66,14 @@ export function getOllamaModel(baseURL: string, model: string) {
   return Ollama;
 }
 
+export function getPerplexityModel(apiKey: string, model: string) {
+  const openai = createOpenAI({
+    baseURL: 'https://api.perplexity.ai',
+    apiKey,
+  });
+  return perplexity(model);
+}
+
 export function getDeepseekModel(apiKey: string, model: string){
   const openai = createOpenAI({
     baseURL: 'https://api.deepseek.com/beta',
@@ -125,6 +133,8 @@ export function getModel(provider: string, model: string, env: Env, apiKeys?: Re
       return getLMStudioModel(baseURL, model);
     case 'xAI':
       return getXAIModel(apiKey, model);
+    case 'Perplexity':
+      return getPerplexityModel(apiKey, model);
     default:
       return getOllamaModel(baseURL, model);
   }
