@@ -20,6 +20,7 @@ This fork of Bolt.new allows you to choose the LLM that you use for each prompt!
 - ✅ Publish projects directly to GitHub (@goncaloalves)
 - ✅ Ability to enter API keys in the UI (@ali00209)
 - ✅ xAI Grok Beta Integration (@milutinke)
+- ⬜ Perplexity Integration (@grand151)
 - ⬜ **HIGH PRIORITY** - Prevent Bolt from rewriting files as often (file locking and diffs)
 - ⬜ **HIGH PRIORITY** - Better prompting for smaller LLMs (code window sometimes doesn't start)
 - ⬜ **HIGH PRIORITY** Load local projects into the app
