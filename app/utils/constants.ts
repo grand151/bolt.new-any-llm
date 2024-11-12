@@ -5,10 +5,17 @@ export const WORK_DIR = `/home/${WORK_DIR_NAME}`;
 export const MODIFICATIONS_TAG_NAME = 'bolt_file_modifications';
 export const MODEL_REGEX = /^\[Model: (.*?)\]\n\n/;
 export const PROVIDER_REGEX = /\[Provider: (.*?)\]\n\n/;
-export const DEFAULT_MODEL = 'claude-3-5-sonnet-latest';
-export const DEFAULT_PROVIDER = 'Anthropic';
+export const DEFAULT_MODEL = 'nousresearch/hermes-3-llama-3.1-405b';
+export const DEFAULT_PROVIDER = 'OpenRouter';
 
 const staticModels: ModelInfo[] = [
+  { name: 'huggingfaceh4/zephyr-7b-beta', label: 'Zephyr 7B (free)', provider: 'OpenRouter' },
+  { name: 'Qwen/Qwen2-7B-Instruct', label: 'Qwen2 7B Instruct (free)', provider: 'OpenRouter' },
+  { name: 'meta-llama/llama-3.1-405b-instruct', label: 'Llama 3.1 405B Instruct', provider: 'OpenRouter' },
+  { name: 'nousresearch/hermes-3-llama-3.1-405b', label: 'Hermes 3 405B Instruct', provider: 'OpenRouter' },
+  { name: 'liquid/lfm-40b', label: 'LFM 40B MoE (free)', provider: 'OpenRouter' },
+  { name: 'undi95/toppy-m-7b', label: 'Toppy M 7B (free)', provider: 'OpenRouter' },
+  { name: 'gryphe/mythomist-7b', label: 'MythoMist 7B (free)', provider: 'OpenRouter' },
   { name: 'gpt-4o', label: 'GPT-4o', provider: 'OpenAI' },
   { name: 'anthropic/claude-3.5-sonnet', label: 'Anthropic: Claude 3.5 Sonnet (OpenRouter)', provider: 'OpenRouter' },
   { name: 'anthropic/claude-3-haiku', label: 'Anthropic: Claude 3 Haiku (OpenRouter)', provider: 'OpenRouter' },
