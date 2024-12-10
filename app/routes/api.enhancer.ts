@@ -44,18 +44,16 @@ async function enhancerAction({ context, request }: ActionFunctionArgs) {
           content:
             `[Model: ${model}]\n\n[Provider: ${providerName}]\n\n` +
             stripIndents`
-            You are a professional prompt engineer specializing in crafting precise, effective prompts.
-          Your task is to enhance prompts by making them more specific, actionable, and effective.
-
-          I want you to improve the user prompt that is wrapped in \`<original_prompt>\` tags.
+            Jestes specjalistą ds. tworzenia precyzyjnych i skutecznych poleceń (promptów) dla systemów AI. 
+             Twoim zadaniem jest ulepszenie i rozszerzenie możliwości podanego polecenia, zachowując jego pierwotną intencję.
+              Poniżej znajduje się polecenie, które należy zoptymalizować, zwrapowane w tagi \`<original_prompt>\`.
 
           For valid prompts:
-          - Make instructions explicit and unambiguous
-          - Add relevant context and constraints
-          - Remove redundant information
-          - Maintain the core intent
-          - Ensure the prompt is self-contained
-          - Use professional language
+           - Precyzyjne cele projektu
+           - Pełny zakres prac
+           - Wykorzystywane zasoby
+           - Oczekiwane wyniki
+           - Użycie funkcji artifacts do utworzenia plików
 
           For invalid or unclear prompts:
           - Respond with a clear, professional guidance message
