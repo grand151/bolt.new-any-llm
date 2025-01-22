@@ -147,3 +147,6 @@ async function llmCallAction({ context, request }: ActionFunctionArgs) {
     }
   }
 }
+
+
+export { getModelList };
