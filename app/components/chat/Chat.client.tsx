@@ -539,3 +539,6 @@ export const ChatImpl = memo(
     );
   },
 );
+
+
+export { toastAnimation, logger, processSampledMessages };
