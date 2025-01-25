@@ -120,3 +120,6 @@ const limitedMarkdownPlugin: Plugin = () => {
     });
   };
 };
+
+
+export { rehypeSanitizeOptions, limitedMarkdownPlugin };
