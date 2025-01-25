@@ -88,3 +88,6 @@ export async function loader({
     defaultProvider,
   });
 }
+
+
+export { cachedProviders, cachedDefaultProvider, getProviderInfo };
