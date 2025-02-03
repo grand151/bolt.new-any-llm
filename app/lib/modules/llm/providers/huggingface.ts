@@ -20,6 +20,12 @@ export default class HuggingFaceProvider extends BaseProvider {
       maxTokenAllowed: 8000,
     },
     {
+      name: 'deepseek-ai/DeepSeek-R1',
+      label: 'DeepSeek-R1 (HuggingFace)',
+      provider: 'HuggingFace',
+      maxTokenAllowed: 8000,
+    },
+    {
       name: '01-ai/Yi-1.5-34B-Chat',
       label: 'Yi-1.5-34B-Chat (HuggingFace)',
       provider: 'HuggingFace',
