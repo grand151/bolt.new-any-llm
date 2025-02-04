@@ -99,7 +99,7 @@ export default class HuggingFaceProvider extends BaseProvider {
       apiKeys,
       providerSettings: providerSettings?.[this.name],
       serverEnv: serverEnv as any,
-      defaultBaseUrlKey: '',
+      defaultBaseUrlKey: 'https://huggingface.co/api/inference-proxy/together',
       defaultApiTokenKey: 'HuggingFace_API_KEY',
     });
 
