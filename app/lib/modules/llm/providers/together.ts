@@ -14,20 +14,20 @@ export default class TogetherProvider extends BaseProvider {
 
   staticModels: ModelInfo[] = [
     {
-      name: 'Qwen/Qwen2.5-Coder-32B-Instruct',
-      label: 'Qwen/Qwen2.5-Coder-32B-Instruct',
+      name: 'deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free',
+      label: 'deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free',
       provider: 'Together',
       maxTokenAllowed: 8000,
     },
     {
-      name: 'meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo',
-      label: 'meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo',
+      name: 'meta-llama/Llama-3.3-70B-Instruct-Turbo-Free',
+      label: 'meta-llama/Llama-3.3-70B-Instruct-Turbo-Free',
       provider: 'Together',
       maxTokenAllowed: 8000,
     },
     {
-      name: 'mistralai/Mixtral-8x7B-Instruct-v0.1',
-      label: 'Mixtral 8x7B Instruct',
+      name: 'meta-llama/Llama-Vision-Free',
+      label: 'meta-llama/Llama-Vision-Free',
       provider: 'Together',
       maxTokenAllowed: 8192,
     },
