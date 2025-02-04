@@ -26,8 +26,8 @@ export default class HuggingFaceProvider extends BaseProvider {
       maxTokenAllowed: 8000,
     },
     {
-      name: '01-ai/Yi-1.5-34B-Chat',
-      label: 'Yi-1.5-34B-Chat (HuggingFace)',
+      name: 'mistralai/Mistral-Nemo-Instruct-2407',
+      label: 'Mistral-Nemo-Instruct-2407 (HuggingFace)',
       provider: 'HuggingFace',
       maxTokenAllowed: 8000,
     },
@@ -44,8 +44,8 @@ export default class HuggingFaceProvider extends BaseProvider {
       maxTokenAllowed: 8000,
     },
     {
-      name: 'Qwen/Qwen2.5-Coder-32B-Instruct',
-      label: 'Qwen2.5-Coder-32B-Instruct (HuggingFace)',
+      name: 'deepseek-ai/DeepSeek-V3',
+      label: 'DeepSeek-V3 (HuggingFace)',
       provider: 'HuggingFace',
       maxTokenAllowed: 8000,
     },
