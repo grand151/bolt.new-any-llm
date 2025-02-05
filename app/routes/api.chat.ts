@@ -359,3 +359,6 @@ async function chatAction({ context, request }: ActionFunctionArgs) {
     });
   }
 }
+
+
+export { logger, parseCookies };
